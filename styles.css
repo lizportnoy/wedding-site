@@ -1,0 +1,15 @@
+
+.wedding-page {
+	color: red;
+	font-family: 'Nosifer', cursive, sans-serif;
+	font-size: 72px;
+	background-color: black;
+	text-align: center;
+}
+
+.intro-page {
+	margin: 125px auto;
+}
+.small-text {
+	font-size: 36px;
+}
