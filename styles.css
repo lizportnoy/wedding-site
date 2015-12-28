@@ -1,16 +1,29 @@
 .wedding-page {
-	color: red;
-	font-family: 'Nosifer', cursive, sans-serif;
-	font-size: 72px;
-	background-color: black;
+	font-family: 'Cinzel', cursive;
+	font-size: 76px;
+	background-color: #FBFBF2;
 	text-align: center;
+}
+
+.wedding-title {
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent),
+    url(http://theartmad.com/wp-content/uploads/Rose-Gold-Foil-Background-6.jpg) no-repeat;
+	background-size: cover;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
 }
 
 .intro-page {
 	margin: 125px auto;
 }
 .small-text {
-	font-size: 36px;
+	font-size: 42px;
+	line-height: 1.5;
+}
+
+section {
+	padding: 20px 30px;
 }
 
 @media (max-width: 767px) {
@@ -21,11 +34,7 @@
 		margin: 75px auto;
 	}
 	.wedding-page {
-		color: red;
-		font-family: 'Nosifer', cursive, sans-serif;
 		font-size: 48px;
-		background-color: black;
-		text-align: center;
 	}
 
 }
